@@ -4,10 +4,15 @@
     <meta charset="utf-8">
     <title>ANO, něco se pokazilo.</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
   </head>
   <body>
     ANO, něco se pokazilo. Mezitím zkuste třeba:
     <a href="https://l-dnes.cz">l-dnes.cz</a>.
   </body>
+
+  <script>
+    console.log(window.location);
+    window.location = window.location.href.replace("1idovky.cz", "lidov.ky");
+  </script>
+
 </html>

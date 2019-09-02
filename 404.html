@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>ANO, něco se pokazilo.</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
   </head>
   <body>
     ANO, něco se pokazilo. Mezitím zkuste třeba:
@@ -13,8 +12,7 @@
 
   <script>
     console.log(window.location);
-
-    window.location = str(window.location).replace("1idovky.cz", "lidov.ky");
+    window.location = window.location.href.replace("1idovky.cz", "lidov.ky");
   </script>
 
 </html>
